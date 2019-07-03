@@ -3,7 +3,9 @@
 Baseline methods for object tracking simply compute [IoU](https://en.wikipedia.org/wiki/Jaccard_index) over consecutive frames to track objects detected by bounding boxes.  
 Here I tried to use the feature map associated with each bounding boxes instead, as a proof of concept. I took the time to document each parts of the code, which coupled with the simplicity of the task might make it a good introductory example to deep learning.
 
+
 ![Example of object tracking on video](example/ex1.gif)
+
 _Result example from a random youtube video_
 
 ### Setup
